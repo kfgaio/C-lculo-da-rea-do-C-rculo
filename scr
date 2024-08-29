@@ -1,0 +1,11 @@
+import math  # Importa a biblioteca math para usar o valor de pi
+
+def calcular_area_circulo(raio):
+    area = math.pi * raio ** 2  # Fórmula da área do círculo: π * r²
+    return area
+
+raio = float(input("Digite o raio do círculo: "))
+
+area = calcular_area_circulo(raio)
+
+print(f"A área do círculo é: {area:.2f}")
